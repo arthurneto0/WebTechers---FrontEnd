@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Notes</h1>
+    </header>
+    <main>
+        <div class="add" id="add">
+            <form action="">
+                <h2>Adicionar nova nota</h2>
+                <p>Título</p>
+                <input type="text" id="title" required placeholder="Digite o titulo da sua nota">
+                <p>Conteúdo</p>
+                <textarea name="conteudo" id="context" required placeholder="Digite o conteudo da sua nota"></textarea>
+                <input type="submit" value="Salvar nota" class="button" id="button">
+            </form>
+        </div>
+        <div class="mynotes" id="mynotes">
+            <h2>Minhas Notas</h2>
+            <div id="notes"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

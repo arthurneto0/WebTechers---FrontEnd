@@ -1,0 +1,67 @@
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.add {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    
+}
+
+.mynotes {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(228, 226, 226);
+    border-radius: 4px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.button {
+    background-color: rgb(92, 92, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 30px
+}
+
+h2 {
+    font-weight: bold;
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 70px
+}
+
+input {
+    height: 30px
+}
