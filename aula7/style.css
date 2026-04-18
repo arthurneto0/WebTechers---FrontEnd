@@ -3,7 +3,9 @@ main {
     flex-direction: row;
     gap: 15px;
     justify-content: center;
+    align-items: flex-start;
 }
+
 
 .add {
     border-radius: 10px;
@@ -24,6 +26,7 @@ main {
     padding-right: 13px;
     padding-top: 7px;
     padding-bottom: 20px;
+    
 }
 h1 {
     text-align: center;
@@ -64,4 +67,46 @@ textarea {
 
 input {
     height: 30px
+}
+
+.card {
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid rgb(255, 222, 76);
+    transition: 0.2s;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.07)
+}
+
+.tituloNota {
+    padding-top: 8px
+}
+
+.btnExcluir {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    transition: 0.3s;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+    text-indent: 0;
+    -webkit-appearance: none;
+}
+
+#notes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
