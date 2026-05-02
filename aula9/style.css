@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+* {
+    margin: 0;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.others {
+    display: flex;
+    gap: 20px;
+}
