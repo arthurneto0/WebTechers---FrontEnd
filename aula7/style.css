@@ -80,9 +80,7 @@ input {
     position: relative;
 }
 
-.card:hover {
-    transform: scale(1.07)
-}
+
 
 .tituloNota {
     padding-top: 8px

@@ -4,3 +4,10 @@ objeto - instancia
 propriedade - caracteristica
 metodo - ações */
 
+span {
+    background-color: blue;
+}
+
+popup-info {
+    background-color: red !important;
+}
